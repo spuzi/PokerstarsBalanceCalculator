@@ -32,9 +32,14 @@ public class Table {
 	}
 	
 	public ArrayList<Play> loadPlays(){
+		ArrayList<Play> result = new ArrayList<>();
 		String content =  FileManager.readFile(Main.player.HANDS_DIRECTORY+"\\"+ this.fileName);
-		System.out.println(content);
-		return null;
+		content = content.substring(1); //First character is a space
+		String[] plays =  content.split("PokerStars Zoom Hand"); // each play is separated by the string "Pokerstars Zoom Hand"
+		for(int i = 1 ; i < plays.length; i ++) { // First element in array is blank
+			result.add(new Play (plays[i]));
+		}
+		return result;
 	}
 	
 //	public double calculateWinnings() {

@@ -45,7 +45,10 @@ public class Play {
 	 * Get the data from the string that pokerStars saves for each hand played
 	 */
 	public Play(String play) {
-		
+		//TODO
+		String[] splitted =  play.split(":");
+		String id = splitted[0] ;
+		System.out.println(play);
 	}
 	
 	
