@@ -1,0 +1,457 @@
+﻿PokerStars Zoom Hand #189846739993:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:35:24 CET [2018/08/13 13:35:24 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: Dreikoner (€2 in chips) 
+Seat 2: BustMeGuy (€1.99 in chips) 
+Seat 3: spuzipakete (€2 in chips) 
+Seat 4: simpl2much4u (€2 in chips) 
+Seat 5: vtoroinarty (€8.26 in chips) 
+Seat 6: Caciqueperez (€0.99 in chips) 
+BustMeGuy: posts small blind €0.01
+spuzipakete: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [8h 3h]
+simpl2much4u: raises €0.04 to €0.06
+vtoroinarty: folds 
+Caciqueperez: folds 
+Dreikoner: folds 
+BustMeGuy: folds 
+spuzipakete: folds 
+Uncalled bet (€0.04) returned to simpl2much4u
+simpl2much4u collected €0.05 from pot
+simpl2much4u: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.05 | Rake €0 
+Seat 1: Dreikoner (button) folded before Flop (didn't bet)
+Seat 2: BustMeGuy (small blind) folded before Flop
+Seat 3: spuzipakete (big blind) folded before Flop
+Seat 4: simpl2much4u collected (€0.05)
+Seat 5: vtoroinarty folded before Flop (didn't bet)
+Seat 6: Caciqueperez folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846745733:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:35:33 CET [2018/08/13 13:35:33 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: OnedollarPT (€3.71 in chips) 
+Seat 2: spuzipakete (€2 in chips) 
+Seat 3: chiwas12 (€2.94 in chips) 
+Seat 4: AgenteFx (€1.09 in chips) 
+Seat 5: dosi_III (€0.58 in chips) 
+Seat 6: Suave1984 (€6.10 in chips) 
+spuzipakete: posts small blind €0.01
+chiwas12: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [Ts 2h]
+AgenteFx: folds 
+dosi_III: folds 
+Suave1984: raises €0.06 to €0.08
+OnedollarPT: calls €0.08
+spuzipakete: folds 
+chiwas12: folds 
+*** FLOP *** [3s 9s 9d]
+Suave1984: bets €0.10
+OnedollarPT: calls €0.10
+*** TURN *** [3s 9s 9d] [4d]
+Suave1984: checks 
+OnedollarPT: bets €0.26
+Suave1984: folds 
+Uncalled bet (€0.26) returned to OnedollarPT
+OnedollarPT collected €0.37 from pot
+OnedollarPT: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.39 | Rake €0.02 
+Board [3s 9s 9d 4d]
+Seat 1: OnedollarPT (button) collected (€0.37)
+Seat 2: spuzipakete (small blind) folded before Flop
+Seat 3: chiwas12 (big blind) folded before Flop
+Seat 4: AgenteFx folded before Flop (didn't bet)
+Seat 5: dosi_III folded before Flop (didn't bet)
+Seat 6: Suave1984 folded on the Turn
+
+
+
+PokerStars Zoom Hand #189846749572:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:35:39 CET [2018/08/13 13:35:39 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: spuzipakete (€2 in chips) 
+Seat 2: XiXoT2remoto (€2.58 in chips) 
+Seat 3: willybore (€0.95 in chips) 
+Seat 4: rafa995 (€2.08 in chips) 
+Seat 5: rda91128 (€3.61 in chips) 
+Seat 6: Bayest1212 (€2.21 in chips) 
+XiXoT2remoto: posts small blind €0.01
+willybore: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [4c 6c]
+rafa995: folds 
+rda91128: folds 
+Bayest1212: folds 
+spuzipakete: raises €0.03 to €0.05
+XiXoT2remoto: folds 
+willybore: calls €0.03
+*** FLOP *** [8c Ad 9s]
+willybore: checks 
+spuzipakete: bets €0.05
+willybore: calls €0.05
+*** TURN *** [8c Ad 9s] [As]
+willybore: checks 
+spuzipakete: checks 
+*** RIVER *** [8c Ad 9s As] [6s]
+willybore: checks 
+spuzipakete: checks 
+*** SHOW DOWN ***
+willybore: shows [9d Kc] (two pair, Aces and Nines)
+spuzipakete: mucks hand 
+willybore collected €0.20 from pot
+*** SUMMARY ***
+Total pot €0.21 | Rake €0.01 
+Board [8c Ad 9s As 6s]
+Seat 1: spuzipakete (button) mucked [4c 6c]
+Seat 2: XiXoT2remoto (small blind) folded before Flop
+Seat 3: willybore (big blind) showed [9d Kc] and won (€0.20) with two pair, Aces and Nines
+Seat 4: rafa995 folded before Flop (didn't bet)
+Seat 5: rda91128 folded before Flop (didn't bet)
+Seat 6: Bayest1212 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846774146:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:36:18 CET [2018/08/13 13:36:18 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: simpl2much4u (€2.01 in chips) 
+Seat 2: louleles (€0.98 in chips) 
+Seat 3: MaxiMick (€2.25 in chips) 
+Seat 4: conejo4287 (€4.08 in chips) 
+Seat 5: nicalomano (€2.25 in chips) 
+Seat 6: spuzipakete (€2 in chips) 
+louleles: posts small blind €0.01
+MaxiMick: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [5s 7s]
+conejo4287: folds 
+nicalomano: folds 
+spuzipakete: raises €0.03 to €0.05
+simpl2much4u: folds 
+louleles: folds 
+MaxiMick: folds 
+Uncalled bet (€0.03) returned to spuzipakete
+spuzipakete collected €0.05 from pot
+spuzipakete: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.05 | Rake €0 
+Seat 1: simpl2much4u (button) folded before Flop (didn't bet)
+Seat 2: louleles (small blind) folded before Flop
+Seat 3: MaxiMick (big blind) folded before Flop
+Seat 4: conejo4287 folded before Flop (didn't bet)
+Seat 5: nicalomano folded before Flop (didn't bet)
+Seat 6: spuzipakete collected (€0.05)
+
+
+
+PokerStars Zoom Hand #189846783545:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:36:33 CET [2018/08/13 13:36:33 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: lediouc (€4.07 in chips) 
+Seat 2: monton1 (€1.07 in chips) 
+Seat 3: spuzipakete (€2.03 in chips) 
+Seat 4: Suave1984 (€5.89 in chips) 
+Seat 5: pedroalex10 (€4.37 in chips) 
+Seat 6: TurtlePKR99 (€1 in chips) 
+monton1: posts small blind €0.01
+spuzipakete: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [Tc 6d]
+Suave1984: folds 
+pedroalex10: raises €0.02 to €0.04
+TurtlePKR99: folds 
+lediouc: folds 
+monton1: folds 
+spuzipakete: folds 
+Uncalled bet (€0.02) returned to pedroalex10
+pedroalex10 collected €0.05 from pot
+pedroalex10: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.05 | Rake €0 
+Seat 1: lediouc (button) folded before Flop (didn't bet)
+Seat 2: monton1 (small blind) folded before Flop
+Seat 3: spuzipakete (big blind) folded before Flop
+Seat 4: Suave1984 folded before Flop (didn't bet)
+Seat 5: pedroalex10 collected (€0.05)
+Seat 6: TurtlePKR99 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846780407:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:36:28 CET [2018/08/13 13:36:28 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: Dr_Suff888 (€2.05 in chips) 
+Seat 2: loudydrix (€2.82 in chips) 
+Seat 3: MsMarvell (€1.97 in chips) 
+Seat 4: monton1 (€1.07 in chips) 
+Seat 5: spuzipakete (€2.03 in chips) 
+Seat 6: letha1A1km00st (€2.42 in chips) 
+loudydrix: posts small blind €0.01
+MsMarvell: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [2h 4c]
+monton1: folds 
+spuzipakete: folds 
+letha1A1km00st: folds 
+Dr_Suff888: folds 
+loudydrix: calls €0.01
+MsMarvell: checks 
+*** FLOP *** [2s Kc Ts]
+loudydrix: checks 
+MsMarvell: checks 
+*** TURN *** [2s Kc Ts] [7d]
+loudydrix: checks 
+MsMarvell: checks 
+*** RIVER *** [2s Kc Ts 7d] [8c]
+loudydrix: checks 
+MsMarvell: checks 
+*** SHOW DOWN ***
+loudydrix: shows [9s Jh] (a straight, Seven to Jack)
+MsMarvell: mucks hand 
+loudydrix collected €0.04 from pot
+*** SUMMARY ***
+Total pot €0.04 | Rake €0 
+Board [2s Kc Ts 7d 8c]
+Seat 1: Dr_Suff888 (button) folded before Flop (didn't bet)
+Seat 2: loudydrix (small blind) showed [9s Jh] and won (€0.04) with a straight, Seven to Jack
+Seat 3: MsMarvell (big blind) mucked [Qh 5s]
+Seat 4: monton1 folded before Flop (didn't bet)
+Seat 5: spuzipakete folded before Flop (didn't bet)
+Seat 6: letha1A1km00st folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846789221:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:36:42 CET [2018/08/13 13:36:42 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: XiXoT2remoto (€3.99 in chips) 
+Seat 2: spuzipakete (€2.01 in chips) 
+Seat 3: vgalbis90 (€2.02 in chips) 
+Seat 4: alkarajonnnn (€1.94 in chips) 
+Seat 5: dosi_III (€0.55 in chips) 
+Seat 6: chiwas12 (€2.30 in chips) 
+spuzipakete: posts small blind €0.01
+vgalbis90: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [Kd 8s]
+alkarajonnnn: folds 
+dosi_III: folds 
+chiwas12: folds 
+XiXoT2remoto: folds 
+spuzipakete: raises €0.03 to €0.05
+vgalbis90: folds 
+Uncalled bet (€0.03) returned to spuzipakete
+spuzipakete collected €0.04 from pot
+spuzipakete: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.04 | Rake €0 
+Seat 1: XiXoT2remoto (button) folded before Flop (didn't bet)
+Seat 2: spuzipakete (small blind) collected (€0.04)
+Seat 3: vgalbis90 (big blind) folded before Flop
+Seat 4: alkarajonnnn folded before Flop (didn't bet)
+Seat 5: dosi_III folded before Flop (didn't bet)
+Seat 6: chiwas12 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846803758:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:37:04 CET [2018/08/13 13:37:04 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: Lord_Grey91 (€1.83 in chips) 
+Seat 2: xanmiuree (€3.44 in chips) 
+Seat 3: Jov1n (€1.71 in chips) 
+Seat 4: tasdon17 (€1.29 in chips) 
+Seat 5: spuzipakete (€2.03 in chips) 
+Seat 6: f1RK (€2 in chips) 
+xanmiuree: posts small blind €0.01
+Jov1n: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [7c Tc]
+tasdon17: folds 
+spuzipakete: raises €0.03 to €0.05
+f1RK: folds 
+Lord_Grey91: calls €0.05
+xanmiuree: folds 
+Jov1n: folds 
+*** FLOP *** [5c 4c 3c]
+spuzipakete: bets €0.07
+Lord_Grey91: raises €0.15 to €0.22
+spuzipakete: raises €0.34 to €0.56
+Lord_Grey91: folds 
+Uncalled bet (€0.34) returned to spuzipakete
+spuzipakete collected €0.54 from pot
+spuzipakete: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.57 | Rake €0.03 
+Board [5c 4c 3c]
+Seat 1: Lord_Grey91 (button) folded on the Flop
+Seat 2: xanmiuree (small blind) folded before Flop
+Seat 3: Jov1n (big blind) folded before Flop
+Seat 4: tasdon17 folded before Flop (didn't bet)
+Seat 5: spuzipakete collected (€0.54)
+Seat 6: f1RK folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846834327:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:37:53 CET [2018/08/13 13:37:53 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: spuzipakete (€2.30 in chips) 
+Seat 2: BARUT0106 (€1.51 in chips) 
+Seat 3: TiteLinda (€2.60 in chips) 
+Seat 4: b_zelda (€3.80 in chips) 
+Seat 5: eviscerates (€2.12 in chips) 
+Seat 6: tonystarman (€1.57 in chips) 
+BARUT0106: posts small blind €0.01
+TiteLinda: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [6s Qc]
+b_zelda: folds 
+eviscerates: folds 
+tonystarman: raises €0.02 to €0.04
+spuzipakete: folds 
+BARUT0106: folds 
+TiteLinda: folds 
+Uncalled bet (€0.02) returned to tonystarman
+tonystarman collected €0.05 from pot
+tonystarman: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.05 | Rake €0 
+Seat 1: spuzipakete (button) folded before Flop (didn't bet)
+Seat 2: BARUT0106 (small blind) folded before Flop
+Seat 3: TiteLinda (big blind) folded before Flop
+Seat 4: b_zelda folded before Flop (didn't bet)
+Seat 5: eviscerates folded before Flop (didn't bet)
+Seat 6: tonystarman collected (€0.05)
+
+
+
+PokerStars Zoom Hand #189846845814:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:38:11 CET [2018/08/13 13:38:11 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: TurtlePKR99 (€1.71 in chips) 
+Seat 2: akirakurosaw (€3.26 in chips) 
+Seat 3: Personaje9 (€1.92 in chips) 
+Seat 4: spuzipakete (€2.30 in chips) 
+Seat 5: monton1 (€2.40 in chips) 
+Seat 6: Bayest1212 (€2.25 in chips) 
+akirakurosaw: posts small blind €0.01
+Personaje9: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [4d 8h]
+spuzipakete: folds 
+monton1: folds 
+Bayest1212: folds 
+TurtlePKR99: folds 
+akirakurosaw: folds 
+Uncalled bet (€0.01) returned to Personaje9
+Personaje9 collected €0.02 from pot
+Personaje9: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.02 | Rake €0 
+Seat 1: TurtlePKR99 (button) folded before Flop (didn't bet)
+Seat 2: akirakurosaw (small blind) folded before Flop
+Seat 3: Personaje9 (big blind) collected (€0.02)
+Seat 4: spuzipakete folded before Flop (didn't bet)
+Seat 5: monton1 folded before Flop (didn't bet)
+Seat 6: Bayest1212 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846847784:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:38:14 CET [2018/08/13 13:38:14 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: nicalomano (€2.06 in chips) 
+Seat 2: caroleli10 (€2.05 in chips) 
+Seat 3: LobodeAcero (€2.39 in chips) 
+Seat 4: Newlifemeok (€4.28 in chips) 
+Seat 5: TurtlePKR99 (€1.71 in chips) 
+Seat 6: spuzipakete (€2.30 in chips) 
+caroleli10: posts small blind €0.01
+LobodeAcero: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [8c 9c]
+Newlifemeok: folds 
+TurtlePKR99: folds 
+spuzipakete: raises €0.03 to €0.05
+nicalomano: folds 
+caroleli10: folds 
+LobodeAcero: folds 
+Uncalled bet (€0.03) returned to spuzipakete
+spuzipakete collected €0.05 from pot
+spuzipakete: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.05 | Rake €0 
+Seat 1: nicalomano (button) folded before Flop (didn't bet)
+Seat 2: caroleli10 (small blind) folded before Flop
+Seat 3: LobodeAcero (big blind) folded before Flop
+Seat 4: Newlifemeok folded before Flop (didn't bet)
+Seat 5: TurtlePKR99 folded before Flop (didn't bet)
+Seat 6: spuzipakete collected (€0.05)
+
+
+
+PokerStars Zoom Hand #189846858443:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:38:31 CET [2018/08/13 13:38:31 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: chiwas12 (€2.24 in chips) 
+Seat 2: chelius869 (€4.95 in chips) 
+Seat 3: CAMILO31416 (€1.60 in chips) 
+Seat 4: spuzipakete (€2.33 in chips) 
+Seat 5: XiXoT2remoto (€2 in chips) 
+Seat 6: patricksk242 (€2.58 in chips) 
+chelius869: posts small blind €0.01
+CAMILO31416: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [As Jh]
+spuzipakete: raises €0.03 to €0.05
+XiXoT2remoto: folds 
+patricksk242: folds 
+chiwas12: folds 
+chelius869: calls €0.04
+CAMILO31416: folds 
+*** FLOP *** [6h 7d 6d]
+chelius869: checks 
+spuzipakete: checks 
+*** TURN *** [6h 7d 6d] [5c]
+chelius869: bets €0.06
+spuzipakete: folds 
+Uncalled bet (€0.06) returned to chelius869
+chelius869 collected €0.11 from pot
+*** SUMMARY ***
+Total pot €0.12 | Rake €0.01 
+Board [6h 7d 6d 5c]
+Seat 1: chiwas12 (button) folded before Flop (didn't bet)
+Seat 2: chelius869 (small blind) collected (€0.11)
+Seat 3: CAMILO31416 (big blind) folded before Flop
+Seat 4: spuzipakete folded on the Turn
+Seat 5: XiXoT2remoto folded before Flop (didn't bet)
+Seat 6: patricksk242 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #189846876328:  Hold'em No Limit (€0.01/€0.02) - 2018/08/13 19:38:59 CET [2018/08/13 13:38:59 ET]
+Table 'Arneb' 6-max Seat #1 is the button
+Seat 1: nicalomano (€2 in chips) 
+Seat 2: spuzipakete (€2.28 in chips) 
+Seat 3: tazlocker (€1 in chips) 
+Seat 4: XiXoT2remoto (€2 in chips) 
+Seat 5: simpl2much4u (€4.45 in chips) 
+Seat 6: asuusu (€3.06 in chips) 
+spuzipakete: posts small blind €0.01
+tazlocker: posts big blind €0.02
+*** HOLE CARDS ***
+Dealt to spuzipakete [2h 7h]
+XiXoT2remoto: folds 
+simpl2much4u: folds 
+asuusu: folds 
+nicalomano: folds 
+spuzipakete: folds 
+Uncalled bet (€0.01) returned to tazlocker
+tazlocker collected €0.02 from pot
+tazlocker: doesn't show hand 
+*** SUMMARY ***
+Total pot €0.02 | Rake €0 
+Seat 1: nicalomano (button) folded before Flop (didn't bet)
+Seat 2: spuzipakete (small blind) folded before Flop
+Seat 3: tazlocker (big blind) collected (€0.02)
+Seat 4: XiXoT2remoto folded before Flop (didn't bet)
+Seat 5: simpl2much4u folded before Flop (didn't bet)
+Seat 6: asuusu folded before Flop (didn't bet)
+
+
+
