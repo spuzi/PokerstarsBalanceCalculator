@@ -1,3 +1,6 @@
+package src.classes;
+
+import java.util.StringTokenizer;
 
 /**
  * This class represents a single play
@@ -36,19 +39,48 @@
 
 public class Play {
 	String PLAYER_NAME ="spuzipakete";
-	long id = -1;
+	String id = "";
 	double moneyBeforePlay = 0.0;
 	double moneyAfterPlay = 0.0;
+	String date ="";
+	String time = "";
+	String currency ="";
+	String amount = "";
 	
 	
 	/**
 	 * Get the data from the string that pokerStars saves for each hand played
 	 */
 	public Play(String play) {
-		//TODO
-		String[] splitted =  play.split(":");
-		String id = splitted[0] ;
-		System.out.println(play);
+		
+		StringTokenizer tokens = new StringTokenizer(play , "\n");
+        while(tokens.hasMoreTokens()){
+            String str=tokens.nextToken();
+            
+            // Here we can get the id of the play, and the date and hour 
+    		if(str.trim().substring(0,1).equals("#")) { // First line
+    			this.id = str.trim().substring(1,str.indexOf(":")-1);
+    			String[] aux = str.split("-")[1].split(" ");
+    			this.date = aux[1];
+    			this.time = aux[2];
+    		}
+    		// Seat of our player , we can check how much money we have before the play
+    		else if(	str.substring(0,4).equals("Seat") ) {
+    			
+    			// Seat 2 and 3 pays small and big blind
+    			
+    			
+    			String playerName = str.substring(str.indexOf(":") + 1 , str.indexOf("(")).trim();
+    			if(playerName.equals(Main.player.PLAYER_NAME)) {
+	    			String playerMoney = str.substring(str.indexOf("(") + 1 , str.indexOf(")")).split(" ")[0];
+	    			this.amount = playerMoney.substring(1);
+	    			this.currency = playerMoney.substring(0,1);
+    			}
+    		}
+    		   		
+    		
+    		
+        }
 	}
 	
 	

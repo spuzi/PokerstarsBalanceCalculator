@@ -1,3 +1,4 @@
+package src.classes;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,13 +27,12 @@ public class FileManager {
 	 */
 	public static String readFile(String filePath) {
 		String fileContent = "";
-		File file = new File(filePath);
 		BufferedReader br;
 		try {
 			br = new BufferedReader( new InputStreamReader( new FileInputStream(filePath), "UTF8"));
 			String st;
 			while ((st = br.readLine()) != null) {
-				fileContent += st;
+				fileContent += st +"\n";
 			}
 		} catch (FileNotFoundException e) {
 			System.err.println("The following file doesnt exists: " + filePath);

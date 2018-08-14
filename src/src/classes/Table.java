@@ -1,3 +1,4 @@
+package src.classes;
 
 /**
  * This class represents a table you have played.
@@ -25,7 +26,7 @@ public class Table {
 	}
 	
 	public static void main (String[] args) {
-		String name = "HH20180813 Arneb #5 - €0.01-€0.02 - EUR No Limit Hold'em.txt";
+		String name = "HH20180813 Arneb #4 - €0.01-€0.02 - EUR No Limit Hold'em.txt";
 		Table table = new Table (name);
 		System.out.println(name);
 		table.loadPlays();
