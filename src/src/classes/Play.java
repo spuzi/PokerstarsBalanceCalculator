@@ -1,6 +1,8 @@
 package src.classes;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 /**
@@ -57,30 +59,27 @@ public class Play {
 				savePositionOfEachPlayerInTable(str);
 			}
 			// Case of paying SB/BB
-			else if(str.contains("posts")) {
-				// Player in small blind pays 
-				if(str.contains("small blind")) {
-					Player playerInSb = this.positionOfPlayers.get(Position.SB);
-					playerInSb.payMoney(this.smallBlind);
-				}
-				// Player in big blind pays
-				else {
-					
-				}
-				
+			else if (str.contains("posts")) {
+				postBlind(str);
+			}
+			// Check cards dealed to our player
+			else if (str.contains("Dealt to")) {
+				getHandDealedToOurPlayer(str);
+			} else if (aPlayerHasDoneAnAction(str)) {
+				System.out.println("hola");
+				playerDoAnAction(str);
 			}
 
 		}
 	}
 
+
+
 	/**
-	 * Load id, date and time of the hand played
-	 * Get the following data:
-	 *  -Id of the hand
-	 *  -Date(day,month,year) when the hand was played
-	 *  -Time (hour, minute, second) when the hand was played
-	 *  -Currency: type of coin played (€, $...)
-	 *  -Amount of big/small blind
+	 * Load id, date and time of the hand played Get the following data: -Id of the
+	 * hand -Date(day,month,year) when the hand was played -Time (hour, minute,
+	 * second) when the hand was played -Currency: type of coin played (€, $...)
+	 * -Amount of big/small blind
 	 */
 	private void loadHandInfo(String str) {
 		this.currency = getCurrency(str);
@@ -89,30 +88,33 @@ public class Play {
 		this.id = getIdOfHand(str); //
 		this.date = getDate(str);
 		this.time = getTime(str);
-		System.out.println("hola");
 	}
 
 	/**
 	 * Get the type of currency played: €, $ ...
+	 * 
 	 * @return
 	 */
 	public String getCurrency(String str) {
-		return str.substring(str.indexOf("(") +1 , str.indexOf(")")).substring(0,1);
+		return str.substring(str.indexOf("(") + 1, str.indexOf(")")).substring(0, 1);
 	}
-	
+
 	/**
 	 * Get the amount of small blind in this hand
 	 */
 	public double getSmallBlind(String str) {
-		return Double.parseDouble( str.substring(str.indexOf("(") +1 , str.indexOf(")")).replace(this.currency, "").split("/")[0] );
+		return Double.parseDouble(
+				str.substring(str.indexOf("(") + 1, str.indexOf(")")).replace(this.currency, "").split("/")[0]);
 	}
+
 	/**
 	 * Get the amount of big blind in this hand
-	 */	
+	 */
 	public double getBigBlind(String str) {
-		return Double.parseDouble( str.substring(str.indexOf("(") +1 , str.indexOf(")")).replace(this.currency, "").split("/")[1] );
+		return Double.parseDouble(
+				str.substring(str.indexOf("(") + 1, str.indexOf(")")).replace(this.currency, "").split("/")[1]);
 	}
-	
+
 	/**
 	 * Get the Id of the hand
 	 */
@@ -168,12 +170,67 @@ public class Play {
 		// MP
 		case 5:
 			this.positionOfPlayers.put(Position.MP, player);
-			break; 
-		// CO	
+			break;
+		// CO
 		case 6:
 			this.positionOfPlayers.put(Position.CO, player);
 			break;
 		}
 	}
 
+	/**
+	 * Post the big and small blind
+	 */
+	public void postBlind(String str) {
+		// Player in small blind pays small blind
+		if (str.contains("small blind")) {
+			this.positionOfPlayers.get(Position.SB).payMoney(this.smallBlind);
+		}
+		// Player in big blind pays
+		else {
+			this.positionOfPlayers.get(Position.BB).payMoney(this.bigBlind);
+		}
+	}
+
+	/**
+	 * Analyze what cards have we recieve
+	 */
+	private Hand getHandDealedToOurPlayer(String str) {
+		Hand hand = null;
+		hand = new Hand(str);
+		String nameOfThePlayer = str.split(" ")[2];
+		getPlayerByName(nameOfThePlayer).setHand(new Hand(str));
+		return hand;
+	}
+
+	/**
+	 * Check if a player has made an action (fold, check , call, raise)
+	 */
+	private boolean aPlayerHasDoneAnAction(String str) {
+		str = str.toUpperCase();
+		if (str.contains(Action.FOLD.toString()) || str.contains(Action.CHECK.toString())
+				|| str.contains(Action.RAISE.toString()) || str.contains(Action.CAll.toString()))
+			return true;
+		return false;
+	}
+	
+	/**
+	 * Search a player by name
+	 */
+	private Player getPlayerByName(String nameOfThePlayer) {
+		for (Map.Entry<Position, Player> entry : this.positionOfPlayers.entrySet()) {
+			if (entry.getValue().getName().equals(nameOfThePlayer)) {
+				return entry.getValue();
+			}
+		}
+		return null;
+	}
+	/**
+	 * A player can do one of these actions: fold, check, call, raise
+	 * @param str
+	 */
+	private void playerDoAnAction(String str) {
+		String playerName = str.split(":")[0];
+		getPlayerByName(playerName).doAction(str);
+	}
 }
