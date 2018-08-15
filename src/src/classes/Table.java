@@ -34,7 +34,7 @@ public class Table {
 	
 	public ArrayList<Play> loadPlays(){
 		ArrayList<Play> result = new ArrayList<>();
-		String content =  FileManager.readFile(Main.player.HANDS_DIRECTORY+"\\"+ this.fileName);
+		String content =  FileManager.readFile(Main.player.HANDS_DIRECTORY+"\\"+ "HH20180813 Arneb #4 - €0.01-€0.02 - EUR No Limit Hold'em.txt");
 		content = content.substring(1); //First character is a space
 		String[] plays =  content.split("PokerStars Zoom Hand"); // each play is separated by the string "Pokerstars Zoom Hand"
 		for(int i = 1 ; i < plays.length; i ++) { // First element in array is blank
