@@ -36,6 +36,8 @@ public class Play {
 	String amount = "";
 	double smallBlind = 0.0;
 	double bigBlind = 0.0;
+	String winner = "";
+	boolean summary = false;
 
 	// Saves the position where is sat every player
 	HashMap<Position, Player> positionOfPlayers = new HashMap<>();
@@ -52,9 +54,10 @@ public class Play {
 			// Load info of this hand
 			if (str.trim().substring(0, 1).equals("#")) { // First line
 				loadHandInfo(str);
+				summary = false;
 			}
 			// Seat of our player , we can check how much money we have before the play
-			else if (str.substring(0, 4).equals("Seat")) {
+			else if (str.substring(0, 4).equals("Seat") && !summary) {
 				// Find where is sat each player and saves this information in a Hashmap
 				savePositionOfEachPlayerInTable(str);
 			}
@@ -65,9 +68,29 @@ public class Play {
 			// Check cards dealed to our player
 			else if (str.contains("Dealt to")) {
 				getHandDealedToOurPlayer(str);
-			} else if (aPlayerHasDoneAnAction(str)) {
-				System.out.println("hola");
+			} 
+			// A player do an action: fold, raise, call, check
+			else if (aPlayerHasDoneAnAction(str) && !summary) {
 				playerDoAnAction(str);
+			}
+			else if (str.contains("collected") && !summary) {
+				playerWinPot(str);
+			}
+			else if (str.contains("Rake")) {
+				winnerPaysRake(str);
+			}
+			else if (str.contains("FLOP")) {
+				System.out.println("FLOP");
+			}
+			else if (str.contains("TURN")) {
+				System.out.println("TURN");
+			}
+			else if (str.contains("RIVER")) {
+				System.out.println("RIVER");
+			}
+			// Winner shows the cards
+			else if (str.contains("shows")) {
+				System.out.println("winner shows hand");
 			}
 
 		}
@@ -207,9 +230,8 @@ public class Play {
 	 * Check if a player has made an action (fold, check , call, raise)
 	 */
 	private boolean aPlayerHasDoneAnAction(String str) {
-		str = str.toUpperCase();
-		if (str.contains(Action.FOLD.toString()) || str.contains(Action.CHECK.toString())
-				|| str.contains(Action.RAISE.toString()) || str.contains(Action.CAll.toString()))
+		if (str.contains("folds") || str.contains(Action.CHECK.toString())
+				|| str.contains("raises") || str.contains("calls") || str.contains("bets"))
 			return true;
 		return false;
 	}
@@ -227,10 +249,37 @@ public class Play {
 	}
 	/**
 	 * A player can do one of these actions: fold, check, call, raise
-	 * @param str
 	 */
 	private void playerDoAnAction(String str) {
 		String playerName = str.split(":")[0];
 		getPlayerByName(playerName).doAction(str);
 	}
+	
+	/**
+	 * A player has win the pot 
+	 */
+	private void playerWinPot(String str) {
+		Double amount = Double.parseDouble( str.split(" ")[2].substring(1) );
+		String playerName = str.split(" ")[0];
+		getPlayerByName(playerName).winMoney(amount);
+		winner = playerName;
+	}
+	
+	/**
+	 * The winner of the pot has to pay the rake
+	 */
+	private void winnerPaysRake(String str) {
+		Double rake = Double.parseDouble(str.split(" ")[5].substring(1));
+		getPlayerByName(this.winner).payRake(rake);
+		summary = true;
+	}
+	
+	/**
+	 * 
+	 */
+	private void winnerShowsHand(String str) {
+		Hand hand = new Hand(str);
+		getPlayerByName(this.winner).setHand(hand);
+	}
+	
 }
